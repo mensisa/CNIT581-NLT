@@ -7,7 +7,7 @@ This repository is for Fall 2019 CNIT581-NLT class project.
   * `sentence.txt` is the corpus for testing sentence similarity (Feel free to add more~)
   
 ### Usage
-  * `glove_model` will take a long time to load
+  * `glove_model` will take a long time to load(sad)
   * Word similarity is able to compute after loading `glove_model`
   * `nlp = StanfordCoreNLP(r'<your-directory>\data\stanford-corenlp-full-2018-02-27')`
   * Parsing results (dependency & Part-of-speech) are saved as `dict()`, which using **index** of sentences to retrive the `list` of parsing results
