@@ -11,3 +11,10 @@ This repository is for Fall 2019 CNIT581-NLT class project.
   * Word similarity is able to compute after loading `glove_model`
   * `nlp = StanfordCoreNLP(r'<your-directory>\data\stanford-corenlp-full-2018-02-27')`
   * Parsing results (dependency & Part-of-speech) are saved as `dict()`, which using **index** of sentences to retrive the `list` of parsing results
+
+### Useful Tools
+ * Stanford CoreNLP:    [:octocat:GitHub](https://github.com/Lynten/stanford-corenlp)
+ * GloVe Loader Script: [:octocat:GitHub](https://github.com/lostkuma/loadGlove)
+ * CodeNLP demo:        [Website](http://corenlp.run/)
+ * Word2Vec demo:       [Website](http://bionlp-www.utu.fi/wv_demo/)
+ * GloVe:               [Website](https://nlp.stanford.edu/projects/glove/)
