@@ -1,5 +1,7 @@
-# CNIT581-NLT
-This repository is for Fall 2019 CNIT581-NLT class project
+# CNIT581-NLT Sentence Similarity
+This repository is for Fall 2019 CNIT581-NLT class project.  
+ For project ideas, click [here](https://docs.google.com/document/d/125JhN6XhmpnZ5nq2uthlHJNAeYQ7m2gv8A8pHmt-73o/edit)  
+ For milestone 2 presentation, click [here](https://docs.google.com/presentation/d/1ZaZiEU2XsEFCUAA03z8qERim2d6MGDG9oSFAT9bVzwE/edit#slide=id.g78e23b0480_1_68)  
 ### Data
   * Add `glove.840B.300d.txt` and `stanford-corenlp-full-2018-02-27` under `data` folder
   * `sentence.txt` is the corpus for testing sentence similarity
