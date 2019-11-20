@@ -4,7 +4,7 @@ This repository is for Fall 2019 CNIT581-NLT class project.
  For milestone 2 presentation, click [here](https://docs.google.com/presentation/d/1ZaZiEU2XsEFCUAA03z8qERim2d6MGDG9oSFAT9bVzwE/edit#slide=id.g78e23b0480_1_68)  
 ### Data
   * Add `glove.840B.300d.txt` and `stanford-corenlp-full-2018-02-27` under `data` folder
-  * `sentence.txt` is the corpus for testing sentence similarity
+  * `sentence.txt` is the corpus for testing sentence similarity (Feel free to add more~)
   
 ### Usage
   * `glove_model` will take a long time to load
