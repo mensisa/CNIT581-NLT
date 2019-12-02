@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+
+<root>
+  <document>
+    <sentences>
+      <sentence id="1" sentimentValue="3" sentiment="Positive">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <sentiment>Neutral</sentiment>
+          </token>
+          <token id="2">
+            <word>love</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <sentiment>Very positive</sentiment>
+          </token>
+          <token id="3">
+            <word>dogs</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <sentiment>Positive</sentiment>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>.</POS>
+            <sentiment>Neutral</sentiment>
+          </token>
+        </tokens>
+        <parse>(ROOT&#x0D;
+  (S&#x0D;
+    (NP (PRP I))&#x0D;
+    (VP (VBP love)&#x0D;
+      (NP (NNS dogs)))&#x0D;
+    (. .)))&#x0D;
+&#x0D;
+        </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">love</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">love</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">love</governor>
+            <dependent idx="3">dogs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">love</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">love</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">love</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">love</governor>
+            <dependent idx="3">dogs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">love</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">love</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">love</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">love</governor>
+            <dependent idx="3">dogs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">love</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">love</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">love</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">love</governor>
+            <dependent idx="3">dogs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">love</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">love</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">love</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">love</governor>
+            <dependent idx="3">dogs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">love</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+
+<root>
+  <document>
+    <sentences>
+      <sentence id="1" sentimentValue="1" sentiment="Negative">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <sentiment>Neutral</sentiment>
+          </token>
+          <token id="2">
+            <word>hate</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <sentiment>Very negative</sentiment>
+          </token>
+          <token id="3">
+            <word>puppies</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <sentiment>Neutral</sentiment>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>.</POS>
+            <sentiment>Neutral</sentiment>
+          </token>
+        </tokens>
+        <parse>(ROOT&#x0D;
+  (S&#x0D;
+    (NP (PRP I))&#x0D;
+    (VP (VBP hate)&#x0D;
+      (NP (NNS puppies)))&#x0D;
+    (. .)))&#x0D;
+&#x0D;
+        </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hate</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hate</governor>
+            <dependent idx="3">puppies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hate</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hate</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hate</governor>
+            <dependent idx="3">puppies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hate</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hate</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hate</governor>
+            <dependent idx="3">puppies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hate</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hate</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hate</governor>
+            <dependent idx="3">puppies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hate</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hate</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hate</governor>
+            <dependent idx="3">puppies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hate</governor>
+            <dependent idx="4">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
+
