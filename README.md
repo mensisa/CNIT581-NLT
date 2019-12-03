@@ -3,6 +3,7 @@ This repository is for Fall 2019 CNIT581-NLT class project, which is about sente
 
  For project ideas, click [here](https://docs.google.com/document/d/125JhN6XhmpnZ5nq2uthlHJNAeYQ7m2gv8A8pHmt-73o/edit)  
  For milestone 2 presentation, click [here](https://docs.google.com/presentation/d/1ZaZiEU2XsEFCUAA03z8qERim2d6MGDG9oSFAT9bVzwE/edit#slide=id.g78e23b0480_1_68)  
+ For final presentation, click [here](https://docs.google.com/presentation/d/1pXRNH9Y14oZj8gFjmy16SDqpPFZEjq6_Q7NGgNTrrIY/edit?usp=sharing)
  
 ### Data
   * Add `glove.840B.300d.txt` and `stanford-corenlp-full-2018-02-27` under `data` folder
